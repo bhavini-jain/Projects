@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design Using Html and CSS</title>
+    <link rel="stylesheet" href="eg_style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="./eg_website/images/logo.png" class="logo">
+            <div class ="header-text">
+                <h1>Purpose is it to<br> bring learning to people</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quos tempora error deleniti rerum, vero et, facilis accusamus fugiat odit autem accusantium quas. Provident dolore aspernatur nam aliquam repudiandae hic?</p>
+            <button class="commom-btn">Read More</button>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            </div>
+
+        </div>
+    </section>    
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FEATURES/a></li>
+            <li><a href="#">OFFER</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="eg_website/images/menu.png" id="menubtn">
+
+<section id="about">
+    <div class="about-left-col">
+        <img src="eg_website/images/about.png">
+    </div>
+    <div class="about-right-col">
+        <div class="about-text">
+          <h1>About Us</h1>
+          <span class="square"></span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse delectus sunt non fuga tenetur at ex quas alias dolores cum praesentium consequuntur, 
+                optio beatae quidem exercitationem voluptas, ea aperiam expedita?</p>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis cupiditate aliquid, neque officiis soluta corrupti, at ut commodi maiores a sint et 
+                    illo eius distinctio. Unde, cumque quam? Inventore.</h2>
+           
+           <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia voluptatem est ipsam molestias. Dolor maiores alias, magni accusantium qui ex in facilis, 
+               expedita deserunt ratione, placeat laudantium architecto quis?</h3>     </div>
+    </div>
+</section>
+ <!--features-->
+ <section id ="features">
+     <div class="feature-row">
+         <div class="feature-col">
+             <img src="eg_website/images/pic-1.png">
+             <h4>Learn Anywhere</h4>
+             <p>Switch between your computer,tablet or mobile device</p>
+         </div>
+         <div class="feature-col">
+            <img src="eg_website/images/pic-2.png">
+            <h4>Expert Teachers</h4>
+            <p>Learn from industry experts who are passionate about teaching.</p>
+         </div>
+         <div class="feature-col">
+            <img src="eg_website/images/pic-3.png">
+            <h4>Ultimate</h4>
+            <p>Choose what you'd like to learn from oue executive subscriptio library. </p>
+         </div>
+     </div>
+     <div class="feature-btn">
+        <div class="line">
+            <span class="line-1"></span><br>
+            <span class="line-2"></span><br>
+            <span class="line-3"></span>
+        </div>
+          <button class="common-btn">Start Free Trial</button>   
+    </div>
+ </section>
+
+<section id="courses">
+    <div class="container course-row"></div>
+    <div class="course-left-col"></div>
+    <div class="course-right-col">
+        <img src="eg_website/images/course.png">
+    </div>
+    
+
+</section>
+
+
+
+
+
+    <script>
+        var menubtn=document.getElementById("menubtn");
+        var sideNav=document.getElementById("sideNav");
+
+        sideNav.style.right="-250px";
+        menubtn.onclick= function(){
+            if(sideNav.style.right=="-250px"){
+                sideNav.style.right="0";
+            }
+            else{
+                sideNav.style.right="-250px";
+            }
+        }
+        </script>
+</body>
+</html>
